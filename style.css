@@ -1,0 +1,92 @@
+body {
+    background-color: #f7ede3;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f5cac2;
+    border: 3px solid rgba(240, 170, 170, 0.781);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+li {
+  display: inline-block;
+  border-right: 1px solid rgba(240, 170, 170, 0.781);
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: #dd4866;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover{
+    background-color: #a03148;
+    color: #f5cac2;
+  }
+
+  li a:active {
+    color: white;
+    background-color: #f0a22cef;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.pesquisa input[type="search"] {
+  background-color: #f7ede3;
+  border: 3px solid rgba(240, 170, 170, 0.781);
+  border-radius: 10px;
+  outline: none;
+}
+
+.pesquisa input::placeholder {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #dd4866;
+  font-style: italic;
+}
+
+.pesquisa input[type="search"]:focus {
+  border-color: #dd4866;
+}
+
+.pesquisa button {
+  background-color: #f7ede3;
+  border: 3px solid rgba(240, 170, 170, 0.781);
+  border-radius: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #dd4866;
+  cursor: pointer;
+}
+
+.pesquisa button:hover {
+  background-color: #a03148;
+  color: #f5cac2;
+}
+
+.pesquisa button:active {
+  color: white;
+  background-color: #f0a22cef;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+  
